@@ -1,11 +1,11 @@
-# 🔐 Encryption Tool
+# Encryption Tool
 
 A simple **command-line encryption tool** built with Python that supports secure text and file encryption using **AES-GCM** (Galois/Counter Mode).  
 AES-GCM provides both **confidentiality** (encryption) and **integrity/authentication** (prevents tampering).  
 
 
 
-## ✨ Features
+## Features
 
 - **Text Encryption (AES-GCM)**  
   Encrypt any text securely with a randomly generated 256-bit key.  
@@ -29,7 +29,7 @@ AES-GCM provides both **confidentiality** (encryption) and **integrity/authentic
 >- File encryption stores everything in JSON (.enc.json) except the key.
 >- Always back up your key before encrypting important files.
 
-## 📦 Requirements
+## Requirements
 
 - Python **3.8+**
 - [PyCryptodome](https://pypi.org/project/pycryptodome/)
@@ -39,7 +39,7 @@ Install dependencies:
 pip install pycryptodome
 ```
 
-## ▶️ Usage
+## Usage
 
 Run the script:
 ```bash
@@ -55,17 +55,17 @@ python encryptor.py
 4. Decrypt File (AES-GCM)
 5. Exit
 ```
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - PyCryptodome for cryptographic operations
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with attribution.
 
-## 👨‍💻 Author
+## Author
 
 ### Anurag Aman
 - [LinkedIn](https://linkedin.com/in/anuragaman25) <br>
